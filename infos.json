@@ -970,5 +970,23 @@
             "key_misc_backlight_scale": true,
             "key_misc_bluetooth": "mediatek"
         }
+    },
+    {
+        "match_property": "vendor_fp",
+        "match_value": "Blackview/Shark8*",
+        "device_name": "SHARK 8",
+
+        "maintainer": {
+            "name": "MisterZtr"
+        },
+        "community": {
+            "telegram": "https://t.me/phhtreble"
+        },
+        "preferences": {
+            "persist.sys.phh.disable_voice_call_in": true,
+            "persist.sys.overlay.devinputjack": true,
+            "key_misc_mediatek_touch_hint_rotate": true,
+            "key_misc_mediatek_ged_kpi": true,
+        }
     }
 ]
